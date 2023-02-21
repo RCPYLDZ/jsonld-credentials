@@ -10,7 +10,7 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "createDate": {"@id": "createDate", "@type": "xsd:dateTime"},
     "score": {"@id": "score", "@type": "xsd:float"},
-    "name": {"@id": "name", "@type": "xsd:string"},
+    "givenName": {"@id": "givenName", "@type": "xsd:string"},
     "address": {"@id": "address", "@type": "xsd:string"}
   }
 }
