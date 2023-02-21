@@ -1,16 +1,33 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "@protected": true,
-    "name": "http://schema.org/name",
-    "description": "http://schema.org/description",
-    "identifier": "http://schema.org/identifier",
-    "image": {"@id": "http://schema.org/image", "@type": "@id"},
-    "CreditScore": "https://example.org/examples#CreditScore",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "createDate": {"@id": "createDate", "@type": "xsd:dateTime"},
-    "score": {"@id": "score", "@type": "xsd:float"},
-    "givenName": {"@id": "givenName", "@type": "xsd:string"},
-    "address": {"@id": "address", "@type": "xsd:string"}
-  }
+   "@context":{
+      "@version":1.1,
+      "@protected":true,
+      "name":"http://schema.org/name",
+      "description":"http://schema.org/description",
+      "identifier":"http://schema.org/identifier",
+      "image":{
+         "@id":"http://schema.org/image",
+         "@type":"@id"
+      },
+      "CreditScore":{
+         "@id":"https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore-V1.jsonld#CreditScore",
+         "@context":{
+            "@version":1.1,
+            "@protected":true,
+            "id":"@id",
+            "type":"@type",
+            "xsd":"http://www.w3.org/2001/XMLSchema#",
+           "create_date":{
+             "@id":"_:create_date",
+             "@type":"xsd:dateTime"
+           },
+            "score":{
+               "@id":"_:score",
+               "@type":"xsd:float"
+            },
+            "givenName":"_:givenName",
+            "address":"_:address"
+         }
+      }
+   }
 }
