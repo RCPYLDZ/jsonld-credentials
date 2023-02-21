@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "name": "http://schema.org/name",
+        "description": "http://schema.org/description",
+        "identifier": "http://schema.org/identifier",
+        "Prescription": {
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/Prescription.jsonld",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true
+            },
+            "medicationName": {
+                "@id": "schema-id:medicationName",
+                "@type": "https://schema.org/Text"
+            },
+            "dosage": {
+                "@id": "schema-id:dosage",
+                "@context": {
+                    "amount": {
+                        "@id": "schema-id:amount",
+                        "@type": "https://schema.org/Number"
+                    },
+                    "unit": {
+                        "@id": "schema-id:unit",
+                        "@type": "https://schema.org/Text"
+                    }
+                }
+            },
+            "practitioner": {
+                "@id": "schema-id:practitioner",
+                "@context": {
+                    "name": {
+                        "@id": "schema-id:name",
+                        "@type": "https://schema.org/Text"
+                    }
+                }
+            },
+            "frequency": {
+                "@id": "schema-id:frequency",
+                "@context": {
+                    "amount": {
+                        "@id": "schema-id:amount",
+                        "@type": "https://schema.org/Number"
+                    },
+                    "interval": {
+                        "@id": "schema-id:interval",
+                        "@context": {
+                            "amount": {
+                                "@id": "schema-id:amount",
+                                "@type": "https://schema.org/Number"
+                            },
+                            "unit": {
+                                "@id": "schema-id:unit",
+                                "@type": "https://schema.org/Text"
+                            }
+                        }
+                    }
+                }
+            },
+            "patient": {
+                "@id": "schema-id:patient",
+                "@context": {
+                    "name": {
+                        "@id": "schema-id:name",
+                        "@type": "https://schema.org/Text"
+                    },
+                    "email": {
+                        "@id": "schema-id:email",
+                        "@type": "https://schema.org/Text"
+                    }
+                }
+            },
+            "prescribedAt": {
+                "@id": "schema-id:prescribedAt",
+                "@type": "https://schema.org/Date"
+            }
+        }
+    }
+}
