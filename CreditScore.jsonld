@@ -17,7 +17,7 @@
         "type": "@type",
         "ex": "https://example.com/",
         "score": "ex:score",
-        "create_date": "ex:gender",
+        "create_date": "ex:create_date",
         "creator": "ex:creator"
       }
     }
