@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "general_avg_monthly_spend": "https://example.com/vocab#general_avg_monthly_spend",
+        "general_ltv": "https://example.com/vocab#general_ltv",
+        "restaurant_avg_monthly_spend": "https://example.com/vocab#restaurant_avg_monthly_spend",
+        "restaurant_ltv": "https://example.com/vocab#restaurant_ltv"
+    }
+}
