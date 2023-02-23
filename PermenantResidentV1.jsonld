@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "identifier": "http://schema.org/identifier",
+    "image": {"@id": "http://schema.org/image", "@type": "@id"},
+    
+    "PermanentResident": {
+      "@id": "https://google.com",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ex": "https://example.com/",
+        "familyName": "ex:familyName",
+        "gender": "ex:gender",
+        "givenName": "ex:givenName"
+      }
+    }
+  }
+}
