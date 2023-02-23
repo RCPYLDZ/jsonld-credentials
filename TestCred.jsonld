@@ -1,32 +1,16 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "@protected": true,
-    "ex": "https://example.org/examples#",
-    "TestCred": "ex:TestCred",
-    "name": "http://schema.org/name",
-    "amount": {
-      "@id": "schema-id:amount",
-      "@type": "https://schema.org/Number"
-    },
-    "unit": {
-      "@id": "schema-id:unit",
-      "@type": "https://schema.org/Text"
-    },
-    "other": {
-      "@id": "ex:other",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "amount": {
-          "@id": "schema-id:amount",
-          "@type": "https://schema.org/Number"
-        },
-        "unit": {
-          "@id": "schema-id:unit",
-          "@type": "https://schema.org/Text"
-        }
-      }
-    }
-  }
+   "@context":{
+      "@version":1.1,
+      "@protected":true,
+      "xsd":"http://www.w3.org/2001/XMLSchema#",
+      "ex":"https://example.org/examples#",
+      "TestCred":"ex:TestCred",
+      "name":"http://schema.org/name",
+      "version":"http://schema.org/version",
+      "logo":"http://schema.org/logo",
+      "description":"http://schema.org/description",
+      "score":"xsd:decimal",
+      "creator":"xsd:string",
+      "createDate":"xsd:dateTime"
+   }
 }
