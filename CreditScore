@@ -9,7 +9,7 @@
     "identifier": "http://schema.org/identifier",
     "image": "http://schema.org/image",
     "CreditScore": {
-      "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore.jsonld#CreditScore",
+      "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#CreditScore",
       "@context": {
         "@version": 1.1,
         "@protected": true,
