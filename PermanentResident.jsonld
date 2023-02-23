@@ -15,10 +15,10 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "schema": "http://schema.org/",
-        "familyName": "schema:familyName",
-        "gender": "schema:gender",
-        "givenName": "schema:givenName"
+        "ex": "https://example.com/",
+        "familyName": "ex:familyName",
+        "gender": "ex:gender",
+        "givenName": "ex:givenName"
       }
     }
   }
