@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@base":"https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore.jsonld"
     "@version": 1.1,
     "@protected": true,
 
