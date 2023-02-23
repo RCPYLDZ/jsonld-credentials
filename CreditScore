@@ -1,13 +1,13 @@
 {
   "@context": {
+    "id": "@id",
+    "type": "@type",
     "@version": 1.1,
     "@protected": true,
-
     "name": "http://schema.org/name",
     "description": "http://schema.org/description",
     "identifier": "http://schema.org/identifier",
-    "image": {"@id": "http://schema.org/image", "@type": "@id"},
-    
+    "image": "http://schema.org/image",
     "CreditScore": {
       "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore.jsonld#CreditScore",
       "@context": {
