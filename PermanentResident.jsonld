@@ -9,7 +9,7 @@
     "image": {"@id": "http://schema.org/image", "@type": "@id"},
     
     "PermanentResident": {
-      "@id": "https://w3id.org/citizenship#PermanentResident",
+      "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/PermanentResident.jsonld#PermanentResident",
       "@context": {
         "@version": 1.1,
         "@protected": true,
