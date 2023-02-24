@@ -28,9 +28,9 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "schema": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviour",
-        "general_last_update_date": "schema:general_last_update_date",
-        "general_os": "schema:general_os"
+        "ex": "https://example.com/",
+        "general_last_update_date": "ex:general_last_update_date",
+        "general_os": "ex:general_os"
       }
     }
   }
