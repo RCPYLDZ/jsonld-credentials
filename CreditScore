@@ -1,13 +1,26 @@
 {
   "@context": {
-    "id": "@id",
-    "type": "@type",
     "@version": 1.1,
     "@protected": true,
-    "name": "http://schema.org/name",
+    "id": "@id",
+    "type": "@type",
     "description": "http://schema.org/description",
     "identifier": "http://schema.org/identifier",
+    "name": "http://schema.org/name",
     "image": "http://schema.org/image",
+    "Score": {
+        "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Score",
+        "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "description": "http://schema.org/description",
+            "identifier": "http://schema.org/identifier",
+            "name": "http://schema.org/name",
+            "image": "http://schema.org/image"
+        }
+    },
     "CreditScore": {
       "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#CreditScore",
       "@context": {
