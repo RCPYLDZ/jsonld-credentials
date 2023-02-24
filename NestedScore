@@ -9,7 +9,7 @@
         "name": "http://schema.org/name",
         "image": "http://schema.org/image",
         "Score": {
-            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Score",
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/NestedScore#Score",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,
@@ -22,7 +22,7 @@
             }
         },
         "CreditScore": {
-            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#CreditScore",
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/NestedScore#CreditScore",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,
@@ -33,13 +33,13 @@
                 "create_date": "ex:create_date",
                 "creator": "ex:creator",
                 "scorer": {
-                    "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#CreditScoreScorer",
-                    "@type": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Scorer"
+                    "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/NestedScore#CreditScoreScorer",
+                    "@type": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/NestedScore#Scorer"
                 }
             }
         },
         "Scorer": {
-            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Scorer",
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/NestedScore#Scorer",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,
