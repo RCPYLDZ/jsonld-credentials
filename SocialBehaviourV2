@@ -9,7 +9,7 @@
     "name": "http://schema.org/name",
     "image": "http://schema.org/image",
     "SocialBehaviour": {
-        "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviour#SocialBehaviour",
+        "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviourV2#SocialBehaviour",
         "@context": {
             "@version": 1.1,
             "@protected": true,
@@ -22,7 +22,7 @@
         }
     },
     "MobileOs": {
-      "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviour#MobileOs",
+      "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/SocialBehaviourV2#MobileOs",
       "@context": {
         "@version": 1.1,
         "@protected": true,
