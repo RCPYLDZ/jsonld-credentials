@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "description": "http://schema.org/description",
+        "identifier": "http://schema.org/identifier",
+        "name": "http://schema.org/name",
+        "image": "http://schema.org/image",
+        "Score": {
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Score",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "description": "http://schema.org/description",
+                "identifier": "http://schema.org/identifier",
+                "name": "http://schema.org/name",
+                "image": "http://schema.org/image"
+            }
+        },
+        "CreditScore": {
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#CreditScore",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "ex": "https://example.com/",
+                "score": "ex:score",
+                "create_date": "ex:create_date",
+                "creator": "ex:creator",
+                "scorer": {
+                    "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#CreditScoreScorer",
+                    "@type": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Scorer"
+                }
+            }
+        },
+        "Scorer": {
+            "@id": "https://raw.githubusercontent.com/RCPYLDZ/jsonld-credentials/main/CreditScore#Scorer",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "ex": "https://example.com/",
+                "score": "ex:score",
+                "scorerName": "ex:scorerName"
+            }
+        }
+    }
+}
