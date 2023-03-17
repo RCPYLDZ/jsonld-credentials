@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "description": "http://schema.org/description",
+    "identifier": "http://schema.org/identifier",
+    "name": "http://schema.org/name",
+    "image": "http://schema.org/image",
+    "SocialBehaviour": {
+        "@id": "https://veracityblobdev.blob.core.windows.net/credential-schema/SocialBehaviourV1#SocialBehaviour",
+        "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "description": "http://schema.org/description",
+            "identifier": "http://schema.org/identifier",
+            "name": "http://schema.org/name",
+            "image": "http://schema.org/image"
+        }
+    },
+    "MobileOs": {
+      "@id": "https://veracityblobdev.blob.core.windows.net/credential-schema/SocialBehaviourV1#MobileOs",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "veracity_ns": "https://veracity-vocab.com/",
+        "general_last_update_date": "veracity_ns:general_last_update_date",
+        "general_os": "veracity_ns:general_os"
+      }
+    },
+	"FickleFactor": {
+      "@id": "https://veracityblobdev.blob.core.windows.net/credential-schema/SocialBehaviourV1#FickleFactor",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "veracity_ns": "https://veracity-vocab.com/",
+        "general_last_update_date": "veracity_ns:general_last_update_date"
+      }
+    },
+	"Linkedin": {
+      "@id": "https://veracityblobdev.blob.core.windows.net/credential-schema/SocialBehaviourV1#Linkedin",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "veracity_ns": "https://veracity-vocab.com/",
+        "general_last_update_date": "veracity_ns:general_last_update_date"
+      }
+    },
+	"Instagram": {
+      "@id": "https://veracityblobdev.blob.core.windows.net/credential-schema/SocialBehaviourV1#Instagram",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "veracity_ns": "https://veracity-vocab.com/",
+        "general_last_update_date": "veracity_ns:general_last_update_date",
+        "general_follower_count": "veracity_ns:general_follower_count"
+      }
+    },
+	"Facebook": {
+      "@id": "https://veracityblobdev.blob.core.windows.net/credential-schema/SocialBehaviourV1#Facebook",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "veracity_ns": "https://veracity-vocab.com/",
+        "general_last_update_date": "veracity_ns:general_last_update_date",
+        "general_friends_count": "veracity_ns:general_friends_count"
+      }
+    }
+  }
+}
